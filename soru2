@@ -1,0 +1,5 @@
+topla = 0
+for n in range(1,100):
+    topla=topla+n**n
+    x = topla%10000000000
+    print(x)
